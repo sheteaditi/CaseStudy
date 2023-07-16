@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+
+<!-- External CSS linking here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/GroceryApplication/MyGroceryApp/src/demo.js" defer></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header class="header">
+
+    <a href="/GroceryApplication/MyGroceryApp/src/index.html" class="logo"><i class="fas fa-shopping-basket"> Grocery Manager</i></a>
+  
+  
+    <nav class="navbar"> 
+      <a href="/GroceryApplication/MyGroceryApp/src/index.html">Home</a>
+      <a href="/GroceryApplication/MyGroceryApp/src/products.html">Products</a>
+      <a href="#">Categories</a>
+      <a href="#login">Login</a>
+    </nav>
+  
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+  
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="Search Here...">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+  
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img class="lol" src="/GroceryApplication/images/watermelon.png" alt="">
+        <div class="content">
+          <h3>Watermelon</h3>
+          <span class="price">Rs.80/-</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+    
+  
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img class="lol" src="/GroceryApplication/images/onion.png" alt="">
+        <img src="" alt="">
+        <div class="content">
+          <h3>Onion</h3>
+          <span class="price">Rs.35/-</span>
+          <span class="quantity">qty : 1Kg</span>
+        </div>
+      </div>
+  
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img class="lol" src="/GroceryApplication/images/chicekn.jpg" alt="">
+        <img src="" alt="">
+        <div class="content">
+          <h3>Chicken</h3>
+          <span class="price">Rs.350/-</span>
+          <span class="quantity">qty : 1Kg</span>
+        </div>
+      </div>
+  
+      
+      <div class="total">Total: Rs.500/-</div>
+      <a href="#" class="btn">Checkout</a>
+      </div>
+    </div>
+  
+    <form action="" class="login-form">
+      <h3>Login Now</h3>
+      <input type="email" placeholder="Enter your email" class="box">
+      <input type="password" placeholder="Enter your password" class="box">
+      <input type="submit" value="Login Now" class="btn">
+      <p>Forgot Password? <a href="#">Click Here</a></p>
+      <p>Don't have an account? <a href="#">Create New</a></p>
+    </form>
+  
+</header>
+
+<body style="margin-top:60px">
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+      
+        <div class="box-container">
+          <div class="box">
+            <img src="/GroceryApplication/images/vegetables-g309379943_1280.jpg" alt="">
+            <h3>Vegetables</h3>
+            <p>Upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+      
+          <div class="box">
+            <img src="/GroceryApplication/images/fruits-g4f0ee5dcf_1280.jpg" alt="">
+            <h3>Fruits</h3>
+            <p>Upto 55% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+      
+          <div class="box">
+            <img src="/GroceryApplication/images/dairy-products.jpg" alt="">
+            <h3>Dairy Products</h3>
+            <p>Upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+      
+          <div class="box">
+            <img src="/GroceryApplication/images/fresh-meat.jpg" alt="">
+            <h3>Fresh Meat</h3>
+            <p>Upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

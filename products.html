@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <!-- External CSS linking here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/GroceryApplication/MyGroceryApp/src/demo.js" defer></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header class="header">
+
+  <a href="/GroceryApplication/MyGroceryApp/src/index.html" class="logo"><i class="fas fa-shopping-basket"> Grocery Manager</i></a>
+
+
+  <nav class="navbar"> 
+    <a href="/GroceryApplication/MyGroceryApp/src/index.html">Home</a>
+    <a href="#">Products</a>
+    <a href="/GroceryApplication/MyGroceryApp/src/categories.html">Categories</a>
+    <a href="#login">Login</a>
+  </nav>
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="Search Here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+  <div class="shopping-cart">
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img class="lol" src="/GroceryApplication/images/watermelon.png" alt="">
+      <div class="content">
+        <h3>Watermelon</h3>
+        <span class="price">Rs.80/-</span>
+        <span class="quantity">qty : 1</span>
+      </div>
+    </div>
+  
+
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img class="lol" src="/GroceryApplication/images/onion.png" alt="">
+      <img src="" alt="">
+      <div class="content">
+        <h3>Onion</h3>
+        <span class="price">Rs.35/-</span>
+        <span class="quantity">qty : 1Kg</span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img class="lol" src="/GroceryApplication/images/chicekn.jpg" alt="">
+      <img src="" alt="">
+      <div class="content">
+        <h3>Chicken</h3>
+        <span class="price">Rs.350/-</span>
+        <span class="quantity">qty : 1Kg</span>
+      </div>
+    </div>
+
+    
+    <div class="total">Total: Rs.500/-</div>
+    <a href="#" class="btn">Checkout</a>
+    </div>
+  </div>
+
+  <form action="" class="login-form">
+    <h3>Login Now</h3>
+    <input type="email" placeholder="Enter your email" class="box">
+    <input type="password" placeholder="Enter your password" class="box">
+    <input type="submit" value="Login Now" class="btn">
+    <p>Forgot Password? <a href="#">Click Here</a></p>
+    <p>Don't have an account? <a href="#">Create New</a></p>
+  </form>
+
+</header>
+
+<body style="margin-top:60px">
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+      
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img class="lol" src="/GroceryApplication/images/orange-white-white.jpg" alt="">
+              <h3>Oranges</h3>
+              <div class="price">Rs.250/- to Rs.300/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/red-onion.jpg" alt="" class="lol">
+              <h3>Onions</h3>
+              <div class="price">Rs.25/- to Rs.35/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/raw-meat.jpg" alt="" class="lol">
+              <h3>Meat</h3>
+              <div class="price">Rs.750/- to Rs.1000/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/cauliflower-isolated.jpg" alt="" class="lol">
+              <h3>Cabbage</h3>
+              <div class="price">Rs.27/- to Rs.37/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/potato-table.jpg" alt="" class="lol">
+              <h3>Potatoes</h3>
+              <div class="price">Rs.750/- to Rs.1000/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/avocado.jpg" alt="" class="lol">
+              <h3>Avocado</h3>
+              <div class="price">Rs.750/- to Rs.1000/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/carrots.jpg" alt="" class="lol">
+              <h3>Carrots</h3>
+              <div class="price">Rs.750/- to Rs.1000/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+      
+            <div class="swiper-slide box">
+              <img src="/GroceryApplication/images/lemons.jpg" alt="" class="lol">
+              <h3>Lemons</h3>
+              <div class="price">Rs.750/- to Rs.1000/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
